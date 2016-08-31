@@ -1,0 +1,293 @@
+﻿CLIP ON
+SETUP "MEDIA,MEDIA SIZE,XSTART,0"
+SETUP "MEDIA,MEDIA SIZE,WIDTH,608"
+SETUP "MEDIA,MEDIA SIZE,LENGTH,1416"
+SETUP "FEEDADJ,STARTADJ,-144"
+SETUP "FEEDADJ,STOPADJ,0"
+SETUP "MEDIA,MEDIA TYPE,TICKET w GAPS"
+SETUP "MEDIA,PAPER TYPE,DIRECT THERMAL"
+NASC 8
+PP 30,47
+AN 1
+FT "Swiss 721 BT", 6
+DIR 4
+PT "Folio"
+DIR 1
+PP 44,47
+FT "Swiss 721 BT", 6
+DIR 4
+PT "{{%label}}"
+DIR 1
+PP 44,47
+FT "Swiss 721 BT", 6
+DIR 4
+PT "{{%label}}"
+DIR 1
+PP 50,14
+FT "Swiss 721 BT", 6
+PT "350 M.N"\n"+
+PP 254,14
+FT "Swiss 721 BT", 6
+PT "{{%price}}"
+PP 380,32
+FT "Swiss 721 BT", 8
+PT "{{%sipromo}}"
+PP 60,31
+FT "Swiss 721 BT", 8
+PT "CAR. POR SERV."
+PP 254,31
+FT "Swiss 721 BT", 8
+PT "PRECIO"
+PP 50,55
+PRLINE 528, 1
+PP 50,54
+FT "Swiss 721 BT", 6
+PT "{{%row}}"
+PP 136,54
+FT "Swiss 721 BT", 6
+PT "{{%seat}}"
+PP 254,54
+FT "Swiss 721 BT", 6
+PT "{{%section}}"
+PP 380,54
+FT "Swiss 721 BT", 6
+PT "{{%user}}"
+PP 50,74
+FT "Swiss 721 BT", 8
+PT "FILA"
+PP 136,74
+FT "Swiss 721 BT", 8
+PT "ASIENTO"
+PP 254,74
+FT "Swiss 721 BT", 8
+PT "SECCIÓN"
+PP 380,74
+FT "Swiss 721 BT", 8
+PT "USUARIO"
+PP 50,104
+PRLINE 528, 1
+PP 50,103
+FT "Swiss 721 BT", 6
+PT "{{%accessType}}"
+PP 254,103
+FT "Swiss 721 BT", 6
+PT "{{%ticketType}}"
+PP 380,103
+FT "Swiss 721 BT", 6
+PT "{{%printDate}}"
+PP 50,121
+FT "Swiss 721 BT", 8
+PT "ACCESO"
+PP 254,121
+FT "Swiss 721 BT", 8
+PT "T. BOLETO"
+PP 380,121
+FT "Swiss 721 BT", 8
+PT "FECHA IMP." 
+PP 50,152
+PRLINE 528, 1
+PP 50,151
+FT "Swiss 721 BT", 6
+PT "{{%eventDate}}"
+PP 254,151
+FT "Swiss 721 BT", 6
+PT "{{%eventHour}}"
+PP 380,151
+FT "Swiss 721 BT", 6
+PT "{{%eventName}}"
+PP 50,169
+FT "Swiss 721 BT", 8
+PT "FECHA EVENTO"
+PP 254,169
+FT "Swiss 721 BT", 8
+PT "HORA"
+PP 380,169
+FT "Swiss 721 BT", 8
+PT "EVENTO"
+PP 30,249
+FT "Swiss 721 BT", 6
+DIR 4
+PT "Folio"
+DIR 1
+PP 44,249
+FT "Swiss 721 BT", 6
+DIR 4
+PT "{{%label}}"
+DIR 1
+PP 50,216
+FT "Swiss 721 BT", 6
+PT "{{%servicePrice}}"
+PP 254,216
+FT "Swiss 721 BT", 6
+PT "{{%price}}" 
+PP 380,232
+FT "Swiss 721 BT", 8
+PT "{{%sipromo}}"
+PP 50,234
+FT "Swiss 721 BT", 8
+PT "CAR. POR SERV."
+PP 254,234
+FT "Swiss 721 BT", 8
+PT "PRECIO"
+PP 50,258
+PRLINE 528, 1
+PP 50,257
+FT "Swiss 721 BT", 6
+PT "{{%row}}"
+PP 136,257
+FT "Swiss 721 BT", 6
+PT "{{%seat}}"
+PP 254,257
+FT "Swiss 721 BT", 6
+PT "{{%section}}"
+PP 380,257
+FT "Swiss 721 BT", 6
+PT "{{%user}}"
+PP 50,276
+FT "Swiss 721 BT", 8
+PT "FILA"
+PP 136,276
+FT "Swiss 721 BT", 8
+PT "ASIENTO"
+PP 254,276
+FT "Swiss 721 BT", 8
+PT "SECCIÓN"
+PP 380,276
+FT "Swiss 721 BT", 8
+PT "USUARIO" 
+PP 50,306
+PRLINE 528, 1
+PP 50,305
+FT "Swiss 721 BT", 6
+PT "{{%accessType}}"
+PP 254,305
+FT "Swiss 721 BT", 6
+PT "{{%ticketType}}"
+PP 380,305
+FT "Swiss 721 BT", 6
+PT "{{%printDate}}"
+PP 50,325
+FT "Swiss 721 BT", 8
+PT "ACCESSO"
+PP 254,325
+FT "Swiss 721 BT", 8
+PT "T. BOLETO"
+PP 380,325
+FT "Swiss 721 BT", 8
+PT "FECHA IMP." 
+PP 50,353
+PRLINE 528, 1
+PP 50,352
+FT "Swiss 721 BT", 6
+PT "{{%eventDate}}"
+PP 254,352
+FT "Swiss 721 BT", 6
+PT "{{%eventHour}}"
+PP 380,352
+FT "Swiss 721 BT", 6
+PT "{{%eventName}}"
+PP 50,372
+FT "Swiss 721 BT", 8
+PT "FECHA EVENTO"
+PP 254,372
+FT "Swiss 721 BT", 8
+PT "HORA"
+PP 380,372
+FT "Swiss 721 BT", 8
+PT "EVENTO"
+PP 304,426
+FT "Swiss 721 BT", 8
+AN 5
+PX 30,608,0,"Conserve su boleto en buen estado."
+AN 1
+PP 304,444
+FT "Swiss 721 BT", 8
+AN 5
+PX 30,608,0,"Boleto no canjeable. NO REEMBOLSABLE"
+AN 1
+PP 40,500
+PM "{{%image1}}"
+PP 213,647
+FT "Swiss 721 BT", 8
+PT "{{%sipromo}}"
+PP 53,696
+FT "Swiss 721 BT", 6
+PT "{{%printDate}}"
+PP 347,696
+FT "Swiss 721 BT", 6
+PT "{{%user}}"
+PP 53,716
+FT "Swiss 721 BT", 8
+PT "FECHA IMP."
+PP 347,716
+FT "Swiss 721 BT", 8
+PT "USUARIO"
+PP 251,788
+FT "Swiss 721 BT", 6
+PT "{{%seat}}"
+PP 410,788
+FT "Swiss 721 BT", 6
+PT "{{%accessType}}"
+PP 251,814
+FT "Swiss 721 BT", 8
+PT "ASIENTO"
+PP 410,814
+FT "Swiss 721 BT", 8
+PT "ZONA"
+PP 251,850
+FT "Swiss 721 BT", 6
+PT "{{%ticketType}}"
+PP 410,850
+FT "Swiss 721 BT", 6
+PT "101- C"
+PP 251,875
+FT "Swiss 721 BT", 8
+PT "T. BOLETO"
+PP 410,875
+FT "Swiss 721 BT", 8
+PT "SECCIÓN"
+PP 251,913
+FT "Swiss 721 BT", 6
+PT "{{%price}}"
+PP 410,913
+FT "Swiss 721 BT", 6
+PT "350 M.N"
+PP 251,939
+FT "Swiss 721 BT", 8
+PT "PRECIO"
+PP 410,939
+FT "Swiss 721 BT", 8
+PT "CAR. POR SERV."
+PP 40,766
+FT "Swiss 721 BT", 8
+PT "FOLIO"
+PP 142,766
+FT "Swiss 721 BT", 6
+PT "{{%label}}"
+PP 44,788
+BT "QRCODE"
+BR 3:1
+BH 100
+BM 4
+PB "{{%folio}}"
+PP 304,1023
+FT "Swiss 721 BT", 6
+AN 5
+PX 30,608,0,"{{%eventDate}} - {{%eventHour}}"
+AN 1
+PP 304,1054
+FT "Swiss 721 BT", 6
+AN 5
+PX 30,608,0,"{{%headerEventPlace}}"
+AN 1
+PP 304,1092
+FT "Swiss 721 BT", 16
+AN 5
+PX 120,400,0,"{{%eventName}}"
+AN 1
+PP 304,1204
+FT "Swiss 721 BT", 6
+AN 5
+PX 30,608,0,"{{%promotor}}"
+AN 1
+PF
