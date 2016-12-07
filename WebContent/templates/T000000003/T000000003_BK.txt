@@ -1,4 +1,4 @@
-﻿CLIP OFF
+CLIP ON
 SETUP "MEDIA,MEDIA SIZE,XSTART,0"
 SETUP "MEDIA,MEDIA SIZE,WIDTH,608"
 SETUP "MEDIA,MEDIA SIZE,LENGTH,1416"
@@ -18,26 +18,24 @@ FT "Swiss 721 BT", 6
 DIR 4
 PT "{{%label}}"
 DIR 1
-PP 44,47
-FT "Swiss 721 BT", 6
-DIR 4
-PT "{{%label}}"
-DIR 1
 PP 50,14
 FT "Swiss 721 BT", 6
-PT "{{%servicePrice}}"
+PT "$ {{%total}}"
 PP 254,14
 FT "Swiss 721 BT", 6
-PT "{{%price}}"
-PP 380,32
-FT "Swiss 721 BT", 8
-PT "{{%sipromo}}"
+PT "$ {{%abono}}"
+PP 380,14
+FT "Swiss 721 BT", 6
+PT "$ {{%resta}}"
 PP 60,31
 FT "Swiss 721 BT", 8
-PT "CAR. POR SERV."
+PT "PRECIO"
 PP 254,31
 FT "Swiss 721 BT", 8
-PT "PRECIO"
+PT "ABONO"
+PP 380,31
+FT "Swiss 721 BT", 8
+PT "RESTA"
 PP 50,55
 PRLINE 528, 1
 PP 50,54
@@ -51,7 +49,7 @@ FT "Swiss 721 BT", 6
 PT "{{%section}}"
 PP 380,54
 FT "Swiss 721 BT", 6
-PT "{{%user}}"
+PT "{{%username}}"
 PP 50,74
 FT "Swiss 721 BT", 8
 PT "FILA"
@@ -86,24 +84,6 @@ FT "Swiss 721 BT", 8
 PT "FECHA IMP." 
 PP 50,152
 PRLINE 528, 1
-PP 50,151
-FT "Swiss 721 BT", 6
-PT "{{%eventDate}}"
-PP 254,151
-FT "Swiss 721 BT", 6
-PT "{{%eventHour}}"
-PP 380,151
-FT "Swiss 721 BT", 6
-PT "{{%eventName}}"
-PP 50,169
-FT "Swiss 721 BT", 8
-PT "FECHA EVENTO"
-PP 254,169
-FT "Swiss 721 BT", 8
-PT "HORA"
-PP 380,169
-FT "Swiss 721 BT", 8
-PT "EVENTO"
 PP 30,249
 FT "Swiss 721 BT", 6
 DIR 4
@@ -116,19 +96,22 @@ PT "{{%label}}"
 DIR 1
 PP 50,216
 FT "Swiss 721 BT", 6
-PT "{{%servicePrice}}"
+PT "$ {{%total}}"
 PP 254,216
 FT "Swiss 721 BT", 6
-PT "{{%price}}" 
-PP 380,232
-FT "Swiss 721 BT", 8
-PT "{{%sipromo}}"
+PT "$ {{%abono}}" 
+PP 380,216
+FT "Swiss 721 BT", 6
+PT "$ {{%resta}}"
 PP 50,234
 FT "Swiss 721 BT", 8
-PT "CAR. POR SERV."
+PT "PRECIO"
 PP 254,234
 FT "Swiss 721 BT", 8
-PT "PRECIO"
+PT "ABONO"
+PP 380,234
+FT "Swiss 721 BT", 8
+PT "RESTA"
 PP 50,258
 PRLINE 528, 1
 PP 50,257
@@ -142,7 +125,7 @@ FT "Swiss 721 BT", 6
 PT "{{%section}}"
 PP 380,257
 FT "Swiss 721 BT", 6
-PT "{{%user}}"
+PT "{{%username}}"
 PP 50,276
 FT "Swiss 721 BT", 8
 PT "FILA"
@@ -177,51 +160,43 @@ FT "Swiss 721 BT", 8
 PT "FECHA IMP." 
 PP 50,353
 PRLINE 528, 1
-PP 50,352
-FT "Swiss 721 BT", 6
-PT "{{%eventDate}}"
-PP 254,352
-FT "Swiss 721 BT", 6
-PT "{{%eventHour}}"
-PP 380,352
-FT "Swiss 721 BT", 6
-PT "{{%eventName}}"
-PP 50,372
+PP 304,408
 FT "Swiss 721 BT", 8
-PT "FECHA EVENTO"
-PP 254,372
-FT "Swiss 721 BT", 8
-PT "HORA"
-PP 380,372
-FT "Swiss 721 BT", 8
-PT "EVENTO"
+AN 5
+PX 30,608,0,"Conserve su ticket en buen estado."
 PP 304,426
 FT "Swiss 721 BT", 8
 AN 5
-PX 30,608,0,"Conserve su boleto en buen estado."
+PX 30,608,0,"ticket no canjeable. NO REEMBOLSABLE"
 AN 1
 PP 304,444
 FT "Swiss 721 BT", 8
 AN 5
-PX 30,608,0,"Boleto no canjeable. NO REEMBOLSABLE"
+PX 30,608,0,"Ticket es solo la representacion de su torobono"
 AN 1
 PP 40,500
 PM "{{%image1}}"
-PP 213,647
+PP 100,627
 FT "Swiss 721 BT", 8
-PT "{{%sipromo}}"
-PP 53,696
+PT "{{%nombre}}"
+PP 100,647
+FT "Swiss 721 BT", 8
+PT "{{%idVtaTemp}}"
+PP 53,690
 FT "Swiss 721 BT", 6
 PT "{{%printDate}}"
-PP 347,696
+PP 265,690
 FT "Swiss 721 BT", 6
-PT "{{%user}}"
-PP 53,716
+PT "{{%username}}"
+PP 53,710
 FT "Swiss 721 BT", 8
 PT "FECHA IMP."
-PP 347,716
+PP 265,710
 FT "Swiss 721 BT", 8
 PT "USUARIO"
+PP 265,760
+FT "Swiss 721 BT", 8
+PT "PROMO: {{%sipromo}}"
 PP 265,788
 FT "Swiss 721 BT", 6
 PT "{{%row}} {{%seat}}"
@@ -247,17 +222,26 @@ PP 410,875
 FT "Swiss 721 BT", 8
 PT "SECCIÓN"
 PP 265,913
-FT "Swiss 721 BT", 6
-PT "{{%price}}"
+FT "Swiss 721 BT", 8
+PT "- RESTA"
 PP 410,913
-FT "Swiss 721 BT", 6
-PT "{{%servicePrice}}"
+FT "Swiss 721 BT", 7
+PT "$ {{%resta}}"
 PP 265,939
 FT "Swiss 721 BT", 8
-PT "PRECIO"
+PT "- ABONO"
 PP 410,939
+FT "Swiss 721 BT", 7
+PT "$ {{%abono}}"
+PP 265,965
 FT "Swiss 721 BT", 8
-PT "CAR. POR SERV."
+PT "- PRECIO"
+PP 410,965
+FT "Swiss 721 BT", 7
+PT "$ {{%total}}"
+PP 265,995
+FT "Swiss 721 BT", 8
+PT "DETALLE DE PAGO"
 PP 50,760
 FT "Swiss 721 BT", 8
 PT "FOLIO"
@@ -270,15 +254,6 @@ BR 3:1
 BH 100
 BM 4
 PB "{{%folio}}"
-PP 304,1023
-FT "Swiss 721 BT", 6
-AN 5
-PX 30,608,0,"{{%eventDate}} - {{%eventHour}}"
-AN 1
-PP 304,1054
-FT "Swiss 721 BT", 6
-AN 5
-PX 30,608,0,"{{%headerEventPlace}}"
 AN 1
 PP 304,1092
 FT "Swiss 721 BT", 16

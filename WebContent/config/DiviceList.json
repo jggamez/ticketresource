@@ -9,7 +9,8 @@
             "IN_ENDPOINT_HEX":"81",
             "MODEL":"Honeywell PC42T",
             "class":"HoneywellPC42T",
-            "driverType":"print"
+            "driverType":"print",
+            "printType":"TICKET"
         },
         {
             "Activo":true,
@@ -20,7 +21,8 @@
             "IN_ENDPOINT_HEX":"82",
             "MODEL":"TSC TTP-244 Pro",
             "class":"TSC_TTP_244_Pro",
-            "driverType":"print"
+            "driverType":"print",
+            "printType":"TICKET"
         }
     ]
 }
