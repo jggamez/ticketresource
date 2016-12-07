@@ -1,0 +1,28 @@
+{
+    "printer": [
+        {
+            "Activo":true,
+            "DEVICETYPE":"USB",
+            "IDVENDOR_HEX":"0C2E",
+            "IDPRODUCT_HEX":"FE10",
+            "OUT_ENDPOINT_HEX":"01",
+            "IN_ENDPOINT_HEX":"81",
+            "MODEL":"Honeywell PC42T",
+            "class":"HoneywellPC42T",
+            "driverType":"print",
+            "printType":"TICKET"
+        },
+        {
+            "Activo":true,
+            "DEVICETYPE":"USB",
+            "IDVENDOR_HEX":"1203",
+            "IDPRODUCT_HEX":"0172",
+            "OUT_ENDPOINT_HEX":"01",
+            "IN_ENDPOINT_HEX":"82",
+            "MODEL":"TSC TTP-244 Pro",
+            "class":"TSC_TTP_244_Pro",
+            "driverType":"print",
+            "printType":"TICKET"
+        }
+    ]
+}
